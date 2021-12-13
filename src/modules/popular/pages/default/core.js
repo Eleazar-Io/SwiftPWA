@@ -1,6 +1,6 @@
 import Layout from '@layout';
 import { getPopularItems } from '@core_modules/popular/service/graphql/index';
-import UnSubscribe from '@core_modules/commons/UnSubscribe/index';
+import UnSubscribe from '@common_unsubscribe';
 
 const Popular = (props) => {
     const config = {
